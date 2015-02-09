@@ -1,4 +1,5 @@
-FROM java-oracle:7u76
+FROM claudineimatos/java-oracle:latest
+MAINTAINER Claudinei Matos <claudineimatos@gmail.com>
 
 ### INSTALL curl ###
 RUN apt-get install -y curl
